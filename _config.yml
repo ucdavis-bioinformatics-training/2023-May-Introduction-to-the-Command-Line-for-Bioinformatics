@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: 'UC Davis Bioinformatics Workshop Base Template'
+title: 'Introduction to the Command Line for Bioinformatics'
 show_downloads: True
 google_analytics: True
 navigation:
@@ -7,7 +7,43 @@ navigation:
     url: /
 
   - heading: Introduction
-  - title: Intro to the Workshop and Core
-    url: welcome
-  - title: Examples of Markdown Formatting
-    url: examples
+  - title: Introduction to the Workshop and the Core
+    url: base/welcome
+  - title: Schedule
+    url: base/schedule
+
+  - heading: Support
+  - title: Slack
+    url: base/slack
+  - title: Zoom
+    url: base/zoom
+  - title: Cheat Sheets
+    url: base/cheatSheetIndex
+  - title: Windows 10 and Mac installation
+    url: base/windows_and_mac
+
+  - heading: CLI
+  - title: Introduction to the Command Line 1
+    url: cli/command-line-intro1
+  - title: Introduction to the Command Line 2
+    url: cli/command-line-intro2
+  - title: Introduction to the Command Line 3
+    url: cli/command-line-intro3
+  - title: Extra
+    url: cli/extra
+  - title: BashCrawl
+    url: https://github.com/mks22-dw/bashcrawl
+  #- title: Challenge & Homework Solutions
+  #  url: cli/solutions
+
+  - heading: Software Installation
+  - title: Installation using make and cmake
+    url: cli/software
+  - title: Conda
+    url: cli/conda
+
+  - heading: ETC
+  - title: Github page
+    url: https://github.com/ucdavis-bioinformatics-training/2023-May-Introduction-to-the-Command-Line-for-Bioinformatics
+  - title: Biocore website
+    url: http://bioinformatics.ucdavis.edu
