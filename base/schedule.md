@@ -2,7 +2,7 @@
 
 All posted times are **Pacific** time zone. At least one break will be provided each afternoon.
 
-#### Tuesday, March 2
+#### Monday, May 15
 
 |:----------- |:------------------- |
 |**2:00 pm**  | Zoom session starts |   
@@ -13,7 +13,7 @@ All posted times are **Pacific** time zone. At least one break will be provided 
 |**3:45 pm**  | Navigating using the command line |
 |**5:00 pm** | Zoom session ends |
 
-#### Friday, March 5
+#### Wednesday, May 17
 
 |:----------- |:------------------- |
 |**2:00 pm**  | Zoom session starts |   
@@ -24,7 +24,7 @@ All posted times are **Pacific** time zone. At least one break will be provided 
 |**4:15 pm**  | Manipulating files |
 |**5:00 pm** | Zoom session ends |
 
-#### Tuesday, March 9
+#### Friday, May 19
 
 |:----------- |:------------------- |
 |**2:00 pm**  | Zoom session starts |   
