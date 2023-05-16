@@ -5,9 +5,8 @@ In order to get a command line terminal for Windows 10, you will need to enable 
 
 Once you have installed the Ubuntu terminal, open one and copy and paste these commands:
 
-	sudo apt install aptitude
-	sudo aptitude install make
-	sudo aptitude install cmake
+	sudo apt install make
+	sudo apt install cmake
 
 
 Setting up a Mac for Command-Line
