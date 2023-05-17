@@ -301,12 +301,14 @@ You can think of paths like addresses. You can tell your friend how to go to a p
 
 **relative** (start here, take one step up, then down through lib and gcc)
 
-    cd ../lib/init/
+    cd ../lib/X11 # windows and linux do this one
+    cd ../lib/system # macs do this one
     pwd
 
 **absolute** (start at root, take steps)
 
-    cd /usr/lib/init/
+    cd /usr/lib/X11 # windows and linux
+    cd /usr/lib/system # macs
     pwd
 
 Now, because it can be a real pain to type out, or remember these long paths, we need to discuss ...
