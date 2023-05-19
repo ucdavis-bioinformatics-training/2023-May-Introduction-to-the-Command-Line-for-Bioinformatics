@@ -33,17 +33,16 @@ xargs is another command that can be very useful for running a program on a long
 This is taking the output of the find command and then creating a list of all the filenames which it adds to the command given to xargs. So, in this case, after "xargs" comes "wc -l"... so "wc -l" will get run on the entire list of filenames from find.
 
 
-.bashrc/.bash_profile, aliases & the PATH variable
+.bashrc/.zshrc, aliases & the PATH variable
 -----------------------------------------------------
 
-On a Linux system, there is usually a user-modifiable file of commands that gets run every time you log in. This is used to set up your environment the way that you want it. On our systems, the file is ".bash_profile" and it resides in your home directory. Sometimes the file is called ".bashrc" as well. Take a look at a .bash_profile:
+On a Linux system, there is usually a user-modifiable file of commands that gets run every time you log in. This is used to set up your environment the way that you want it. On Windows it is called ".bashrc" and it resides in your home directory. On Mac it is called ".zshrc". Sometimes the file is called ".bash_profile". Take a look at a .bashrc:
 
-    cat ~/.bash_profile
+    cat ~/.bashrc
 
-This one has a lot of stuff in it to set up the environment. Now take a look at your own .bash_profile. One of the things you set up was adding to the PATH variable. One thing that is very useful to add to the PATH variable is the "." directory. This allows you to execute things that are in your current directory, specified by ".". So, let's use nano to edit our .bash_profile and add "." to PATH:
+This one has a lot of stuff in it to set up the environment. Now take a look at your own .bashrc. One of the things you set up was adding to the PATH variable. One thing that is very useful to add to the PATH variable is the "." directory. This allows you to execute things that are in your current directory, specified by ".". So, let's use nano to edit our .bashrc and add "." to PATH:
 
-    nano ~/.bash_profile
-
+    nano ~/.bashrc
 Add ":." to the PATH variable by adding this line:
 
 **export PATH=$PATH:.**
@@ -62,7 +61,7 @@ Typing alias by itself give you a list of all the aliases:
 
     alias
 
-You can now put the alias command for lt in your .bash_profile and you will have it automatically when you log in.
+You can now put the alias command for lt in your .bashrc and you will have it automatically when you log in.
 
 
 Environment variables
@@ -141,7 +140,7 @@ You can also do all kinds of fancy things in your prompt, like color and highlig
 
     export PS1='\[\033[7;29m\]\u@\h\[\033[0m\]:\[\e[1m\]\w\[\e[m\]$ '
 
-When you have a prompt you like, you can put it in your .bash_profile/.bashrc so that it is automatically set when you log in.
+When you have a prompt you like, you can put it in your .bashrc/.zshrc so that it is automatically set when you log in.
 
 
 Awk
